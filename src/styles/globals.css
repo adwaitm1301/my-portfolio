@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #0dff00;
+  --color-accent-red: #ff1f00;
+  --color-surface: #121212;
+}
+
+@theme inline {
+  --font-display: var(--font-funnel), sans-serif;
+  --font-serif: var(--font-playfair), serif;
+  --font-sans: var(--font-rethink), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: var(--font-rethink), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #0dff00;
+  color: #000;
+}
+
+/* Link styling */
+a {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0dff00;
+}
+
+/* Underline on hover for body links */
+body a:not([class*="btn"]):not([class*="button"]):not([class*="nav"]):not([class*="chip"]) {
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+body a:not([class*="btn"]):not([class*="button"]):not([class*="nav"]):not([class*="chip"]):hover {
+  border-bottom-color: #0dff00;
+}
+
+/* Infinite blog ticker (matches live site's auto-scrolling card carousel) */
+@keyframes blog-ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.333%);
+  }
+}
+
+.blog-ticker {
+  animation: blog-ticker-scroll 40s linear infinite;
+}
+
+/* Reduce motion for users with accessibility preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .blog-ticker {
+    animation: none;
+  }
+}
+
+/* Print stylesheet */
+@media print {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  main {
+    max-width: 8.5in;
+    margin: 0 auto;
+  }
+
+  /* Hide non-essential elements */
+  nav,
+  footer,
+  .fixed,
+  [role="button"],
+  .CommandPalette,
+  .EasterEggs,
+  .CursorPet {
+    display: none !important;
+  }
+
+  /* Optimize for printing */
+  a {
+    text-decoration: underline;
+    color: #0066cc;
+  }
+
+  h1,
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  p,
+  li {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100%;
+    page-break-inside: avoid;
+  }
+
+  /* Remove backgrounds for cleaner print */
+  * {
+    background: transparent !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+
+  a,
+  a * {
+    background: transparent !important;
+    text-decoration: underline !important;
+  }
+
+  /* Spacing for print */
+  section {
+    page-break-inside: avoid;
+    margin-bottom: 1.5cm;
+  }
+}
