@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import { Funnel_Display, Playfair_Display, Rethink_Sans } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import '@/styles/globals.css'
 import { PixelPattern } from '@/components/shared/PixelPattern'
 import Navigation from '@/components/layout/Navigation'
@@ -108,6 +109,7 @@ export default function RootLayout({
         <CommandPalette />
         <EasterEggs />
         <Analytics />
+        <SpeedInsights />
 
         {/* Easter eggs unlocked! Try: Ctrl+Shift+M (matrix mode), Ctrl+Shift+S (stock crash), type "cheat", visit at midnight, or find more... */}
       </body>
