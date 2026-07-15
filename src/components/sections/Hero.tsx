@@ -56,25 +56,25 @@ export default function Hero() {
           <LetterReveal text="BITS Pilani." delay={1.25} stagger={0.012} />
         </p>
 
-        {/* Hero image: spring rise (y:60, delay 0.6, spring 400/80) + scroll parallax scale 1.4→1 */}
+        {/* Hero image: professional headshot with parallax */}
         <motion.div
           ref={imageWrapRef}
           initial={{ opacity: 0, y: 60 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ ...spring, delay: 0.6 }}
-          className="mt-14 overflow-hidden"
+          className="mt-14 overflow-hidden rounded-2xl"
         >
           <motion.div
             style={{ scale, willChange: 'transform' }}
-            className="aspect-[3/2] w-full origin-center"
+            className="aspect-[3/4] md:aspect-[2/3] w-full max-w-md origin-center"
           >
             <motion.img
-              src="/images/hero-transparent.png"
+              src="/images/hero.jpg"
               alt="Adwait M."
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.8 }}
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover"
             />
           </motion.div>
         </motion.div>
