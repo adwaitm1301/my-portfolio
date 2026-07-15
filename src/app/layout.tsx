@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
 import { Funnel_Display, Playfair_Display, Rethink_Sans } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 import '@/styles/globals.css'
 import { PixelPattern } from '@/components/shared/PixelPattern'
 import Navigation from '@/components/layout/Navigation'
@@ -106,13 +107,9 @@ export default function RootLayout({
         <CursorPet />
         <CommandPalette />
         <EasterEggs />
+        <Analytics />
 
-        {/* Vercel Analytics */}
-        {/* Easter eggs unlocked! Try: Ctrl+Shift+M (matrix mode), Ctrl+Shift+S (stock crash), Ctrl+Alt+D (dev panel), type "cheat", visit at midnight, or find more... */}
-        <Script
-          src="https://cdn.vercel-analytics.com/v1/web.js"
-          strategy="afterInteractive"
-        />
+        {/* Easter eggs unlocked! Try: Ctrl+Shift+M (matrix mode), Ctrl+Shift+S (stock crash), type "cheat", visit at midnight, or find more... */}
       </body>
     </html>
   )
