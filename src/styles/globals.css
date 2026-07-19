@@ -1,5 +1,37 @@
 @import "tailwindcss";
 
+/* Hide default cursor globally - custom cursor will replace it */
+* {
+  cursor: none !important;
+}
+
+input,
+textarea,
+select,
+[contenteditable="true"] {
+  cursor: text !important;
+}
+
+button,
+button *,
+a,
+a *,
+[role="button"],
+[role="button"] *,
+[onclick],
+[onclick] *,
+.clickable,
+.clickable *,
+[data-clickable],
+[data-clickable] *,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+label[for],
+label[for] * {
+  cursor: pointer !important;
+}
+
 @theme {
   --color-accent: #0dff00;
   --color-accent-red: #ff1f00;
