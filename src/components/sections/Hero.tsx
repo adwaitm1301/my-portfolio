@@ -23,10 +23,8 @@ export default function Hero() {
     <section className="px-5 pt-24 pb-10 md:px-10 md:pt-32">
       <div className="mx-auto max-w-7xl">
         <div className="relative">
-          <h1 className="font-display font-normal leading-[0.9] tracking-[-0.06em] text-[clamp(48px,10.5vw,134px)]">
-            <LetterReveal text="Adwait" />
-            <br />
-            <LetterReveal text="M." delay={0.12} />
+          <h1 className="font-display font-normal leading-[0.9] tracking-[-0.06em] text-[clamp(48px,8vw,96px)]">
+            <LetterReveal text="Adwait M." delay={0} />
           </h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -38,7 +36,7 @@ export default function Hero() {
           </motion.p>
         </div>
 
-        <h2 className="mt-2 font-display font-normal leading-[0.9] tracking-[-0.06em] text-accent text-[clamp(40px,9.5vw,120px)]">
+        <h2 className="mt-2 font-display font-normal leading-[0.9] tracking-[-0.06em] text-accent text-[clamp(32px,7vw,88px)]">
           <LetterReveal text="Building at the" delay={0.35} stagger={0.015} />
           <br />
           <LetterReveal
@@ -50,10 +48,8 @@ export default function Hero() {
           <LetterReveal text="Markets" delay={0.85} stagger={0.015} />
         </h2>
 
-        <p className="mt-3 font-serif italic leading-[1.05] tracking-[-0.02em] text-accent-red text-[clamp(34px,7.5vw,96px)]">
-          <LetterReveal text="Undergrad @" delay={1.0} stagger={0.012} />
-          <br />
-          <LetterReveal text="BITS Pilani." delay={1.25} stagger={0.012} />
+        <p className="mt-3 font-serif italic leading-[1.05] tracking-[-0.02em] text-accent-red text-[clamp(28px,6vw,72px)]">
+          <LetterReveal text="Undergrad @ BITS Pilani." delay={1.0} stagger={0.012} />
         </p>
 
         {/* Hero image: transparent cutout with parallax over animated background */}
