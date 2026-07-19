@@ -34,12 +34,12 @@ const FAQS: FAQItem[] = [
   {
     question: 'Can I see your code?',
     answer:
-      'GitHub has most projects. Case studies walk through architecture, challenges, and implementation details. Real code with real mistakes — no polished fake-tech.',
+      'GitHub hosts most projects with full source. Case studies break down architecture decisions, technical challenges, and trade-offs. Authentic implementations with real-world constraints.',
   },
   {
     question: 'Are you into competitive programming?',
     answer:
-      'Yes. Codeforces, LeetCode, problem-solving. Good foundation in algorithms. But the real learning comes from systems that matter — building something people use teaches you more than any contest problem.',
+      'Yes. Codeforces, LeetCode, algorithm competitions. Strong foundation in algorithmic problem-solving. However, the most valuable learning comes from building production systems — real-world problems teach more than contest challenges.',
   },
   {
     question: 'What are you currently learning?',
@@ -59,12 +59,12 @@ const FAQS: FAQItem[] = [
   {
     question: 'What internships are you looking for?',
     answer:
-      'ML systems engineering, quantitative research, backend/systems, or full-stack. Places where I can own real projects, not just small tasks. Preference for companies building hard things.',
+      'ML systems engineering, quantitative research, backend/systems, or full-stack. Seeking positions with meaningful project ownership. Drawn to companies solving challenging technical problems.',
   },
   {
     question: 'What do you want to build long-term?',
     answer:
-      'Systems that are both intelligent and fast. Problems where ML and systems optimization intersect. Still exploring whether that\'s startups, research, or within larger teams. The problem matters more than the format.',
+      'High-performance intelligent systems. Problems at the intersection of machine learning and systems optimization. Exploring startups, research, or scaled teams — the technical challenge matters most.',
   },
 ]
 
@@ -88,7 +88,7 @@ export default function FAQ() {
         {
           id: 'greeting',
           type: 'bot',
-          text: "Hey! 👋 Curious about how I work? Tap any question below and I'll answer.",
+          text: "Questions about my background and interests? Select any topic below to learn more.",
         },
       ])
     }, 400)

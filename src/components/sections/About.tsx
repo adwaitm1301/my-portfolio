@@ -1,7 +1,7 @@
 import ScrollColorText from '@/components/shared/ScrollColorText'
 
 const ABOUT_TEXT =
-  "I build things at the intersection of AI and markets. I learn by doing, and I get frustrated when there's talk without action. I believe the best ideas come from collaboration, not isolation. I'm drawn to problems nobody's quite solved yet and the challenge of turning raw ideas into reality. If you're curious about how markets work, how AI changes the game, or just looking to build something meaningful, let's talk."
+  "I build systems at the intersection of AI and markets. I learn through implementation and value execution over theory. I believe the most innovative ideas emerge through collaboration. I'm drawn to unsolved problems and the technical challenge of bringing complex ideas to production. If you're interested in discussing how markets work, how AI shapes engineering, or building meaningful systems, let's connect."
 
 export default function About() {
   return (
