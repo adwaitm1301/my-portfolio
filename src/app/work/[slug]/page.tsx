@@ -211,24 +211,24 @@ export default async function CaseStudy({
           </div>
 
           {/* CTA */}
-          <div className="border border-neutral-800 rounded-lg bg-black/50 p-10 text-center">
+          <div className="border border-neutral-800 rounded-lg bg-black/50 p-6 md:p-10 text-center">
             <h3 className="mb-4 font-display text-2xl font-medium">
               Interested in working together?
             </h3>
-            <p className="mb-6 text-neutral-400">
+            <p className="mb-8 text-neutral-400">
               Let's build something meaningful. I'm always excited to discuss new
               projects and collaborate with talented people.
             </p>
-            <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
+            <div className="flex flex-col gap-4 sm:flex-row sm:justify-center sm:gap-4">
               <a
                 href="mailto:adwait.m.1301@gmail.com"
-                className="inline-block bg-accent px-8 py-3 font-display font-semibold text-black transition-transform hover:scale-105"
+                className="bg-accent px-8 py-3 font-display font-semibold text-black transition-transform hover:scale-105 rounded"
               >
                 Get in Touch
               </a>
               <a
                 href="/#work"
-                className="inline-block border-2 border-accent px-8 py-3 font-display font-semibold text-accent transition-colors hover:bg-accent hover:text-black"
+                className="border-2 border-accent px-8 py-3 font-display font-semibold text-accent transition-colors hover:bg-accent hover:text-black rounded"
               >
                 View More Work
               </a>
