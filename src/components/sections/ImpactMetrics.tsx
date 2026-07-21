@@ -35,7 +35,7 @@ const metrics = [
 
 export default function ImpactMetrics() {
   return (
-    <section className="px-5 py-24 md:px-10 md:py-36">
+    <section className="px-5 pt-24 pb-16 md:px-10 md:pt-36 md:pb-20">
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <h2 className="mb-4 font-display text-5xl font-normal tracking-[-0.04em] md:text-7xl">

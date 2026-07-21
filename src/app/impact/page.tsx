@@ -14,7 +14,7 @@ export default function ImpactPage() {
       <ImpactMetrics />
 
       {/* CTA */}
-      <section className="px-5 py-24 md:px-10 md:py-36">
+      <section className="px-5 pb-24 pt-0 md:px-10 md:pb-36">
         <div className="mx-auto max-w-4xl text-center border-t border-neutral-800 pt-12">
           <Reveal>
             <p className="mb-6 text-neutral-400">
