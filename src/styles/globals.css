@@ -74,13 +74,13 @@ a:hover {
   color: #0dff00;
 }
 
-/* Underline on hover for body links */
-body a:not([class*="btn"]):not([class*="button"]):not([class*="nav"]):not([class*="chip"]) {
+/* Underline on hover for body links (plain text links only — never button-styled links) */
+body a:not([class*="btn"]):not([class*="button"]):not([class*="nav"]):not([class*="chip"]):not([class*="border"]):not([class*="bg-"]) {
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s ease, color 0.2s ease;
 }
 
-body a:not([class*="btn"]):not([class*="button"]):not([class*="nav"]):not([class*="chip"]):hover {
+body a:not([class*="btn"]):not([class*="button"]):not([class*="nav"]):not([class*="chip"]):not([class*="border"]):not([class*="bg-"]):hover {
   border-bottom-color: #0dff00;
 }
 
