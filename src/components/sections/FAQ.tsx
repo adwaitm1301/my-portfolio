@@ -19,7 +19,7 @@ const FAQS: FAQItem[] = [
   {
     question: 'What projects have you shipped?',
     answer:
-      'Stock backtester for strategy validation. Music genre classifier using CNNs (94% accuracy on test set). AntarYatra, a full-stack AI wellness platform deployed live. Case studies break down the architecture, trade-offs, and lessons from each.',
+      'AntarYatra, a full-stack AI wellness platform deployed live. The case study breaks down the architecture, trade-offs, and lessons learned building it.',
   },
   {
     question: 'What is your tech depth?',
@@ -49,7 +49,7 @@ const FAQS: FAQItem[] = [
   {
     question: 'What made you interested in ML and markets?',
     answer:
-      'Markets are concrete. You build a backtester, you see if it works in real data. ML needs evaluation metrics, not just intuition. The intersection is where engineering discipline meets complex problems.',
+      'Markets are concrete. You build something and you see if it works on real data. ML needs evaluation metrics, not just intuition. The intersection is where engineering discipline meets complex problems.',
   },
   {
     question: 'How do I connect with you?',

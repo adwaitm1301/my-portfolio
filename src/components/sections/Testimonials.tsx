@@ -20,22 +20,6 @@ const testimonials: Testimonial[] = [
     company: 'TravelTech Ventures',
     image: '👤',
   },
-  {
-    quote:
-      "I've used 10+ backtesting platforms. Adwait's backtester is the fastest and most accurate. It saved me thousands by catching strategy flaws before I risked real capital. Highly recommend.",
-    author: 'Maya Singh',
-    title: 'Quantitative Trader',
-    company: 'Independent',
-    image: '📈',
-  },
-  {
-    quote:
-      "Working with Adwait on ML optimization was incredible. He took our 78% accuracy model to 94% in weeks. His understanding of both theory and production deployment is rare at this level.",
-    author: 'Arun Kumar',
-    title: 'ML Lead',
-    company: 'AudioTech AI',
-    image: '🎵',
-  },
 ]
 
 export default function Testimonials() {

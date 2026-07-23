@@ -6,18 +6,6 @@ import { motion } from 'framer-motion'
 
 const caseStudies = [
   {
-    id: 'stock-backtester',
-    title: 'Stock Backtester',
-    excerpt: 'High-performance backtesting engine that lets traders validate strategies against historical data in seconds. Free, where commercial tools cost thousands per month.',
-    metric: '$0 Cost',
-  },
-  {
-    id: 'music-genre-classifier',
-    title: 'Music Genre Classifier',
-    excerpt: 'Deep learning model trained on audio features that classifies music across 10 genres with 94% accuracy on unseen data, using a CNN + LSTM architecture.',
-    metric: '94% Accuracy',
-  },
-  {
     id: 'antaryatra',
     title: 'AntarYatra',
     excerpt: 'AI-powered mental wellness platform for students with real-time emotional insights across 12+ Indian languages. Full-stack built solo from AI to deployment.',

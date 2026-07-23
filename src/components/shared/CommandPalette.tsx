@@ -48,8 +48,6 @@ const COMMANDS: CommandItem[] = [
   { id: 'skills', label: 'Skills & Expertise', hint: '/skills', section: 'Pages', icon: PageIcon, perform: (r) => r.push('/skills') },
   { id: 'impact', label: 'Impact & Proof', hint: '/impact', section: 'Pages', icon: PageIcon, perform: (r) => r.push('/impact') },
   { id: 'case-studies', label: 'Case Studies', hint: '/case-studies', section: 'Pages', icon: PageIcon, perform: (r) => r.push('/case-studies') },
-  { id: 'p-backtester', label: 'Stock Backtester', hint: 'Project deep dive', section: 'Projects', icon: ProjectIcon, perform: (r) => r.push('/work/stock-backtester') },
-  { id: 'p-genre', label: 'Music Genre Classifier', hint: 'Project deep dive', section: 'Projects', icon: ProjectIcon, perform: (r) => r.push('/work/music-genre-classifier') },
   { id: 'p-antaryatra', label: 'AntarYatra', hint: 'Project deep dive', section: 'Projects', icon: ProjectIcon, perform: (r) => r.push('/work/antaryatra') },
   {
     id: 'copy-email', label: 'Copy Email Address', hint: 'adwait.m.1301@gmail.com', section: 'Actions', icon: MailIcon,

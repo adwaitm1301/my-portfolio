@@ -41,12 +41,11 @@ export const metadata: Metadata = {
     template: '%s | Adwait M.',
   },
   description:
-    'Undergrad @ BITS Pilani. I build ML systems, trading tools, and full-stack products like a stock backtester, music genre classifier, and AntarYatra.',
+    'Undergrad @ BITS Pilani. I build ML systems and full-stack products like AntarYatra, an AI-powered mental wellness platform.',
   keywords: [
     'Adwait M',
     'machine learning',
-    'fintech',
-    'stock backtesting',
+    'AntarYatra',
     'BITS Pilani',
     'full-stack developer',
     'AI portfolio',

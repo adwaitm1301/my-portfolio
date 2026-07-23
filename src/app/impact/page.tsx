@@ -5,7 +5,7 @@ import ImpactMetrics from '@/components/sections/ImpactMetrics'
 export const metadata: Metadata = {
   title: 'Impact & Proof',
   description:
-    'Verifiable outcomes from shipped products: a stock backtester, a 94%-accuracy music genre classifier, and AntarYatra, plus live GitHub activity.',
+    'Verifiable outcomes from AntarYatra, plus live GitHub activity.',
 }
 
 export default function ImpactPage() {

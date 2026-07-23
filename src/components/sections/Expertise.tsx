@@ -4,14 +4,8 @@ const expertiseAreas = [
   {
     title: 'AI & Machine Learning',
     description:
-      'I build neural networks that actually learn. From music genre classification to emotion detection in text, I understand how to extract meaning from data. Training pipelines, data augmentation, evaluation, deployment. I\'ve taken models from notebook to production, not just tutorials.',
+      'I build neural networks that actually learn. From emotion detection in text to real-time pattern recognition, I understand how to extract meaning from data. Training pipelines, data augmentation, evaluation, deployment. I\'ve taken models from notebook to production, not just tutorials.',
     focus: ['Neural Networks', 'Deep Learning', 'NLP', 'Computer Vision', 'Model Optimization'],
-  },
-  {
-    title: 'Trading & FinTech Systems',
-    description:
-      'I think in terms of market mechanics. I built a backtesting engine so traders can validate strategies before risking real money. I understand quantitative analysis, risk management, market microstructure, and how small errors compound into catastrophic losses. Numbers need to be right.',
-    focus: ['Quantitative Analysis', 'Backtesting', 'Risk Management', 'Market Data', 'Algorithmic Trading'],
   },
   {
     title: 'Full-Stack Product Development',

@@ -27,7 +27,7 @@ const skills: SkillData[] = [
     category: 'FinTech Systems',
     level: 85,
     label: 'Deep Focus',
-    description: 'Trading systems, backtesting engines, market analysis',
+    description: 'Trading systems, market analysis, quantitative modeling',
   },
   {
     category: 'Frontend Development',

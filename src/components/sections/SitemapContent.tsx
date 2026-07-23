@@ -19,8 +19,6 @@ const siteStructure = [
     href: '/work',
     description: 'All projects and case studies',
     children: [
-      { title: 'Stock Backtester', href: '/work/stock-backtester' },
-      { title: 'Music Genre Classifier', href: '/work/music-genre-classifier' },
       { title: 'AntarYatra', href: '/work/antaryatra' },
     ],
   },

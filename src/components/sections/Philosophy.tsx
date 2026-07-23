@@ -22,7 +22,7 @@ export default function Philosophy() {
 
           <Reveal delay={0.2}>
             <p className="text-lg leading-relaxed text-neutral-300">
-              I got frustrated watching traders lose money because they never validated their strategies. So I built a backtester. I saw students struggling with anxiety and nobody helping them understand their patterns. So I built AntarYatra. I wanted music classifiers that worked. So I trained one.
+              I saw students struggling with anxiety and nobody helping them understand their patterns. So I built AntarYatra.
             </p>
           </Reveal>
 

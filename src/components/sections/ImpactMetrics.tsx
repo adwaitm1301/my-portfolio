@@ -2,14 +2,9 @@ import Reveal from '@/components/shared/Reveal'
 
 const metrics = [
   {
-    number: '3',
-    label: 'Products Built',
-    context: 'Stock backtester, music genre classifier, and AntarYatra. All built end-to-end, and all still evolving',
-  },
-  {
-    number: '94%',
-    label: 'Model Test Accuracy',
-    context: 'Music genre classifier, measured on audio it never saw during training',
+    number: '1',
+    label: 'Product Built',
+    context: 'AntarYatra, built end-to-end and still evolving',
   },
   {
     number: '12+',
@@ -24,12 +19,7 @@ const metrics = [
   {
     number: '100%',
     label: 'Built Solo',
-    context: 'Architecture, ML, frontend, backend, deployment. Every layer of every project',
-  },
-  {
-    number: '10',
-    label: 'Genres Classified',
-    context: 'The classifier tells metal from jazz from classical using learned audio patterns, not hand-written rules',
+    context: 'Architecture, ML, frontend, backend, deployment. Every layer of the project',
   },
 ]
 

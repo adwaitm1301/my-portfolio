@@ -4,13 +4,11 @@ This is my personal site. Built it to actually show what I've been working on in
 
 ## what's on it
 
-Three projects live here right now:
+One project lives here right now:
 
-- **Stock backtester**: lets you test trading strategies against historical data, spits out Sharpe ratio and drawdown numbers so you're not just guessing if a strategy is any good.
-- **Music genre classifier**: CNN trained on spectrograms, hits 94% on the test set. Started as a way to learn PyTorch properly and turned into something I kept improving.
 - **AntarYatra**: a wellness platform I built end to end, journaling and mood tracking with an AI layer that reads across a bunch of Indian languages like Hindi, Tamil, and Bengali.
 
-Each one has a case study page that goes into the actual architecture and what didn't work the first time.
+It has a case study page that goes into the actual architecture and what didn't work the first time.
 
 ## stack
 

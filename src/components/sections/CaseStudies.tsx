@@ -19,52 +19,6 @@ interface CaseStudy {
 
 const caseStudies: CaseStudy[] = [
   {
-    id: 'stock-backtester',
-    title: 'Stock Backtester',
-    shortDesc: 'High-performance backtesting engine for trading strategies',
-    image: 'https://framerusercontent.com/images/mJLkkqjsD7fpTZpMGr5rke9X5yk.jpg?scale-down-to=1024',
-    challenge:
-      'Traders were validating strategies with unreliable tools or manual spreadsheets. No standardized way to backtest across different market conditions and timeframes, and commercial tools cost thousands per month.',
-    solution:
-      'Built a backtesting engine that processes historical market data, executes trading logic, and provides detailed performance metrics. Optimized for speed, it analyzes years of data in seconds.',
-    results: [
-      'Validates strategies against historical data before real capital is at risk',
-      'Replaces hours of manual spreadsheet analysis',
-      'Free and accessible, while commercial equivalents charge thousands per month',
-    ],
-    metrics: [
-      { label: 'Cost to Traders', value: '$0' },
-      { label: 'Backtest Speed', value: 'Seconds' },
-      { label: 'Data Coverage', value: 'Years' },
-      { label: 'Status', value: 'In development' },
-    ],
-    techStack: ['Python', 'NumPy', 'Pandas', 'FastAPI', 'PostgreSQL'],
-    link: '/work/stock-backtester',
-  },
-  {
-    id: 'music-genre-classifier',
-    title: 'Music Genre Classifier',
-    shortDesc: 'ML model for accurate music genre prediction',
-    image: 'https://framerusercontent.com/images/5wuNy71YdCIuEbVVynv6lJpJ1dY.jpg?scale-down-to=1024',
-    challenge:
-      'Rule-based genre classification falls apart on real music. Genres blend, and hand-written rules can\'t capture what makes jazz sound like jazz.',
-    solution:
-      'Trained a deep neural network on audio features (MFCC, spectral data) with augmentation like pitch shifting and time stretching, so the model learns actual sound patterns rather than memorizing artists.',
-    results: [
-      '94% accuracy on audio the model never saw during training',
-      'Classifies across 10 genres',
-      'Fast inference, around half a second per song',
-    ],
-    metrics: [
-      { label: 'Test Accuracy', value: '94%' },
-      { label: 'Genres', value: '10' },
-      { label: 'Inference', value: '~0.5s' },
-      { label: 'Training', value: '200 epochs' },
-    ],
-    techStack: ['Python', 'TensorFlow', 'Librosa', 'Scikit-learn', 'Flask'],
-    link: '/work/music-genre-classifier',
-  },
-  {
     id: 'antaryatra',
     title: 'AntarYatra',
     shortDesc: 'AI-powered mental wellness and journaling platform',

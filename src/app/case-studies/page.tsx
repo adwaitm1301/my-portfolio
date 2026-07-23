@@ -5,7 +5,7 @@ import CaseStudies from '@/components/sections/CaseStudies'
 export const metadata: Metadata = {
   title: 'Case Studies',
   description:
-    'Deep dives into the stock backtester, music genre classifier, and AntarYatra. The challenge, the solution, and what actually happened.',
+    'A deep dive into AntarYatra. The challenge, the solution, and what actually happened.',
 }
 
 export default function CaseStudiesPage() {

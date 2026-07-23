@@ -14,7 +14,7 @@ const opportunities = [
   {
     type: 'Focused Projects',
     description:
-      '3-6 month engagements building specific systems. Stock backtester, Music classifier, AntarYatra. I do deep work on hard problems.',
+      '3-6 month engagements building specific systems, like AntarYatra. I do deep work on hard problems.',
   },
   {
     type: 'Partnerships',
